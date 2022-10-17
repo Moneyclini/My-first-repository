@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="p-5 border border-dark">
+                        <img src="images/koop.jpg" class="image-fluid border border-dark">
+                    </div>
+                    <div class="col-md-4 border border-dark m-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At maiores beatae soluta autem? Alias iste asperiores, 
+                        incidunt a rerum, mollitia natus soluta nobis ut assumenda exercitationem sed iusto blanditiis omnis.
+                    </div>
+                    <div class="col-md-4 border border-dark m-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima pariatur rem culpa perspiciatis enim
+                         vitae accusantium aliquid amet, repellendus, alias et similique labore molestiae temporibus quia soluta! Enim, non amet!
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-2">
+                    <form class="was-validated">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">name</label><br>
+                            <input type="text" class="form-control" required value=""
+                             placeholder="enter name here" id="name"><br>
+                             <div class="valid-feedback">
+                                Looks good!
+                            </div>
+                            <div class="valid-feedback">
+                                Invalid feedback!
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="username" class="form label">username</label>
+                            <div class="input-group">
+                                <span class="input-group-text">user</span>
+                                <input type="text" name="" id="" class="form-control">
+                                <span class="input-group-text">@</span>
+                            </div><br>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">email</label><br>
+                            <input type="text" class="form-control" placeholder=" email address" id="email"><br>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="password" class="form-label">password</label><br>
+                            <input type="text" class="form-control" placeholder="enter password here" id="email">
+                            
+                            <div class="form-text" id="passwordhelpblock">the password must contain ......</div>
+                            <div class="valide-feedback">looks good</div>
+                        <div class="mb-3">
+                            <label>gender</label><br>
+                            <label for="male" class="form-label">male</label><br>
+                            <input type="radio" value="male" name="gender" id="male"><br>
+                            <label for="female" class="form-label">female</label><br>
+                            <input type="radio" value="female" name="gender" id="female"><br>
+                        </div>
+                        <div class="mb-3">
+                            <label for="state" class="form-label">state of origin</label>
+                            <select name="state" class="form-state" multiple aria-label="multiple select exampl">
+                                <option value="">abia</option>
+                                <option value="">adamawa</option>
+                                <option selected value="">delta</option>
+                                <input class="form-check" type="checkbox" value="" id="flexcheckdefault">
+                                <label class="form-check-label" for="flexcheckdefault"></label>
+                        </div>
+                        <a href="" class="btn btn-out-danger btn-lg disabled w-100">GO BACK</a>
+                        
+                        <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
