@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+.nav{
+    display: inline;
+    margin: 10px;
+    border: 2px solid black;
+}
+.main{
+    position: absolute;
+    top: 200px;
+    width: 65%;
+    max-width: 65%;
+}

@@ -1,0 +1,49 @@
+
+#big{
+    font-size: 30px;
+    color: hsla(169, 66%, 24%, 0.536);
+    background-color:saddlebrown;
+    opacity: 0.5;
+ }
+ a{
+   text-decoration: blue;
+   color: blanchedalmond;
+ }
+ p{
+   font-size: 24px;
+   font-family: 'Comic sans ms';
+   font-weight: 900;
+   text-transform: uppercase;
+   text-overflow: clip;
+   letter-spacing: 2px;
+   line-height: 1.5px;
+ }
+
+ .hero{
+    
+    background-color: #ffffff;
+    width: 400px;
+    background-image: url('images/hccs.jpg');
+    padding:  100px 120px 150px 120px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    border:  5px groove red;
+    border-radius: 20px 10px 30px 60px;
+  
+ }
+[data-yep=fav]{
+  color: crimson;
+ }
+ a:visited{
+  color: orangered;
+ }
+
+ p.card::first-letter{
+  font-size: 50px;
+ }
+ .premier{
+  display: block;
+  color: red;
+ }

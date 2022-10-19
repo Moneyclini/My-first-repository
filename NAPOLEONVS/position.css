@@ -1,0 +1,42 @@
+.position-static{
+    position: static;
+    border: 10px solid rgb(255, 15, 30);
+    font-size: 100px;
+}
+
+.position-relative{
+position: relative;
+/* top: 300px; */
+border: 10px solid rgb(255, 15, 30);
+font-size: 100px;
+/* bottom: 800px */
+
+}
+
+.position-fixed{
+    position: fixed;;
+    font-size: 20px;
+    bottom: 0px;
+    right: 0px;
+    background-color: crimson;
+    color: white;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+
+}
+
+
+.position-fixed span{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+.position-sticky{
+    position: sticky;
+    font-size: 300px;
+    top: 200px;
+    bottom: 200px;
+}
